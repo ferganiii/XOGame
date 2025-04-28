@@ -42,7 +42,7 @@ public class GameViewModel {
             }
         }
 
-        //  Listener لزر Restart
+        //  Listener   Restart 
         view.addRestartListener(e -> restartGame());
     }
 

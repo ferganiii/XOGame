@@ -5,7 +5,7 @@ public class GameModel {
     private String[][] board = new String[3][3];
 
     public GameModel() {
-        resetBoard();
+        resetBoard();  
     }
 
     public void resetBoard() {

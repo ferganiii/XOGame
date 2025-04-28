@@ -66,7 +66,7 @@ public class GameClient extends WebSocketClient {
             System.out.print(playerName + "، أدخل موقع التحريك (0-8): ");
             move = scanner.nextLine();
 
-            // التحقق من أن المدخل هو رقم بين 0 و 8 فقط
+            // التحقق من أن المدخل هو رقم بين 0  8 فقط
             if (move.matches("[0-8]")) {
                 validMove = true;
             } else {

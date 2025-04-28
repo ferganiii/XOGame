@@ -6,6 +6,6 @@ public class Main {
     public static void main(String[] args) {
         XOView view = new XOView();
         GameModel model = new GameModel();
-        new GameViewModel(view, model); // إرسال كائنات view و model إلى الـ ViewModel
+        new GameViewModel(view, model); // إرسال كائنات view و modeـ ViewModel
     }
 }
