@@ -30,6 +30,7 @@ public class XOView extends JFrame {
                 boardPanel.add(buttons[i][j]);
             }
         }
+        
 
         add(boardPanel, BorderLayout.CENTER);
 
